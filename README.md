@@ -2,6 +2,8 @@
 
 Simple Bottom up slide dialog
 
+![](https://raw.githubusercontent.com/samse/SlideUpDialog/master/image/demo.gif)
+
 # Usage
 ```
 var contentView: View = (getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater).inflate(R.layout.popup_slideup, null)
