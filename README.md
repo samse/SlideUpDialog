@@ -3,7 +3,7 @@
 Simple Bottom up slide dialog
 
 # Usage
-
+```
 var contentView: View = (getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater).inflate(R.layout.popup_slideup, null)
 val slideupPopup = SlideUpDialog.Builder(this)
                 .setContentView(contentView)
@@ -12,7 +12,7 @@ slideupPopup.show()
 contentView.findViewById<Button>(R.id.close).setOnClickListener {
     slideupPopup.dismissAnim()
 }
-
+```
 
 # License
 
