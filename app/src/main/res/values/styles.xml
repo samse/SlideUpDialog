@@ -1,0 +1,7 @@
+<resources>
+    <style name="SlideUpDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/popup_scale_down</item>
+        <item name="android:windowExitAnimation">@anim/popup_scale_up</item>
+    </style>
+
+</resources>
